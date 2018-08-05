@@ -1,0 +1,2 @@
+rootProject.name = 'arrow-collections'
+include 'arrow-collections'

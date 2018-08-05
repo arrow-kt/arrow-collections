@@ -1,0 +1,10 @@
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    compile "io.arrow-kt:arrow-core:$arrowVersion"
+    testCompile "io.kotlintest:kotlintest:$kotlinTestVersion"
+    testCompile "io.arrow-kt:arrow-test:$arrowVersion"
+    kapt "io.arrow-kt:arrow-annotations-processor:$arrowVersion"
+}
+
+apply plugin: 'kotlin-kapt'
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
