@@ -1,2 +1,3 @@
 rootProject.name = 'arrow-collections'
 include 'arrow-collections'
+include 'arrow-collections-clojure'
